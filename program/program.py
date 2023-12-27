@@ -3,15 +3,15 @@ import pandas as pd
 from datetime import datetime, timedelta
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-API_KEY = "016da20c-a163-4c14-853f-79470ceb6266"
-API_URL = "http://api.airvisual.com/v2/city"
+API_KEY = "016da20c-a163-4c14-853f-79470ceb6266" # Your API KEY here
+API_URL = "http://api.airvisual.com/v2/city" 
 EXCEL_FILE_PATH = "air_quality_data.xlsx"
 
 def get_air_quality_data():
     params = {
-        "city": "Sofia",
-        "state": "Sofia",
-        "country": "Bulgaria",
+        "city": "Sofia", # Your city
+        "state": "Sofia", # Your state
+        "country": "Bulgaria", # Your country
         "key": API_KEY
     }
 

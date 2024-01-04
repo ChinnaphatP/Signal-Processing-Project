@@ -31,7 +31,7 @@ def fetch_data_from_api():
 
 
 # Set the end date and time (February 1, 2024, 00:00:00)
-end_datetime = pd.to_datetime("2024-02-01 00:00:00")
+end_datetime = pd.to_datetime("2024-01-26 00:00:00")
 
 columns = ["City", "State", "Country", "Latitude", "Longitude", "AQI (US)", "Main (US)", "AQI (CN)", "Main (CN)", "Timestamp", "Temperature", "Pressure", "Humidity", "Wind Speed", "Wind Direction", "Weather Icon"]
 data_df = pd.DataFrame(columns=columns)
